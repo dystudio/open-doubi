@@ -41,6 +41,7 @@ public class MoneyServerBiz implements IMoneyServerBiz {
         //先调用远程服务测试事务回滚
         System.out.println( userFegin.hello("张三","12321321",userId));
 
+        int i = 0 / 0;
 
         moneyServerMapper.insert(param);
 
